@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>This is the title of the page</h1>
+        <button onclick="changeTitle()">Surprise, it changes!</button>
+        <button onclick="changePcontent()">Change only the p's in div's</button>
+        <h2>This is the subtitle of the page</h2>
+    </header>
+
+    <main>
+        <hr />
+        <section>
+
+            <button onclick="firstUlDisappear()" style="display:inline">Hide/Show List</button>
+            <button onclick="paintItGreen()" style="display:inline">Paint it green</button>
+            <ul id="firstList">
+                <li>1st</li>
+                <li>2nd</li>
+                <li>3rd</li>
+            </ul>
+            <button onclick="addToTheSecond()" style="display:inline">Add Element to second list</button>
+            <button onclick="deleteFromTheSecond()" style="display:inline">Delete Element to second list</button>
+            <ul id="secondList">
+                <li>1st</li>
+                <li>2nd</li>
+                <li>3rd</li>
+            </ul>
+        </section>
+
+        <a href="strive.school">This link goes to Strive School</a>
+
+        <div>
+            <p>This text is just for the exercise</p>
+        </div>
+
+        <form>
+            <input type="text" id="input-field" placeholder="input field for the exercise" />
+        </form>
+    </main>
+
+    <footer>
+        <p>And this text is just for the exercise too!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
